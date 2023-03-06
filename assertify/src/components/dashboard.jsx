@@ -1,12 +1,8 @@
 import React from "react";
 import "./dashboard.css"
-import { HiMenuAlt3 } from "react-icons/hi";
-import { MdOutlineDashboard } from "react-icons/md";
-import { RiSettings4Line } from "react-icons/ri";
-import { TbReportAnalytics } from "react-icons/tb";
+
 import { AiOutlineUser, AiOutlineHeart,AiOutlineShareAlt,AiOutlineAccountBook } from "react-icons/ai";
-import { FiMessageSquare, FiFolder, FiShoppingCart } from "react-icons/fi";
-import { GoKebabVertical } from "react-icons/go";
+
 
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
