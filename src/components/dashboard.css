@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    margin-bottom: 12px;
+    padding: 0 5px;
+  }
+  
+  .box > div {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    flex: 1;
+  }
+  
+  #box1 {
+    background-color: #f77171;
+    width: 50px;
+  }
+  
+  #box2 {
+    background-color: #3b81f6;
+    width: 50px;
+  }
+  
+  #box3 {
+    background-color: #21c55d;
+  }
+  
+  @media (max-width: 768px) {
+    .box {
+      flex-direction: column;
+      justify-content: unset;
+    }
+    
+    .box > div {
+      margin-bottom: 12px;
+    }
+  }
+  
